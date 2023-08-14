@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+  #heading {
+    font-size: xx-large;
+    color: blue;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  #heading {
+    border: 10px;
+    background-color: green;
+  }
+}

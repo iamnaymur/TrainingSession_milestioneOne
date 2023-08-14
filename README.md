@@ -21,3 +21,7 @@ Specificity - By this the browser can understand which style should be showed wh
 
 CSS box model - We can think of a rectangular box around every HTML element when we create one. This model is used to describe the height and width of the rectangular box. However, there are only 4 elements that describe the box model properly and they are Content, Padding, Border, Margin.
 
+Flex and grid - Flex is one dimensional and it can only help you arrange items in a single row or a column. On the other hand grid system is two dimensional and you can imagine it like a table and grid is the most used system for styling complex design and layouts.
+
+Media query - While making a webpage, it is always a big concern to make the webpage responsive for all the device sizes. This is where media query comes in and helps us to make the website responsive for the other devices and make a good user experience overall.
+
