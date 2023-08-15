@@ -25,3 +25,8 @@ Flex and grid - Flex is one dimensional and it can only help you arrange items i
 
 Media query - While making a webpage, it is always a big concern to make the webpage responsive for all the device sizes. This is where media query comes in and helps us to make the website responsive for the other devices and make a good user experience overall.
 
+
+Javascript Data types
+
+1 . Primitive data types- strings, booleans, numbers, null, undefined
+2 . Composite/ non-primitive data types - objects, functions, arrays,
