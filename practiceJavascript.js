@@ -13,13 +13,13 @@ DOM manipulationES6 features: let, const, Arrow Functions, Array Methods etc.
 
 // there are so many more events like - mouseenter, mouseleave, keydown, keypress,submit, etc...
 
-document.getElementById("myButton").addEventListener(
-  "click",
-  (handleClick = () => {
-    alert("Button clicked!");
-    document.body.style.backgroundColor = "green";
-  })
-);
+// document.getElementById("myButton").addEventListener(
+//   "click",
+//   (handleClick = () => {
+//     alert("Button clicked!");
+//     document.body.style.backgroundColor = "green";
+//   })
+// );
 // loops
 
 const firstOne = () => {
@@ -69,4 +69,29 @@ const forInLoopExample = () => {
   }
 };
 
+// array method
+const numbers = [1, 2, 3, 4, 5, 6];
+// push add an element at the end of the array
+numbers.push(23);
 
+// console.log(numbers)
+// pop removes the last element from the array
+numbers.pop();
+
+// shift removes the first element from the array
+numbers.shift();
+// unshift adds an element at the start of an array
+numbers.unshift(1);
+// concat method helps to merge arrays together.
+
+const girls = ['nahin', 'sharmin', 'tisha', 'harun', 'jerin', 'samia']
+const boys = ['shafin', 'topu', 'jishan', 'nirjon', 'akibe', 'miraj', 'naymur']
+
+const friends = girls.concat(boys)
+// console.log(friends)
+
+// splice method add new element to the array and also can be used to remove elements
+const movies=['intersteller','inception','dunkirk','dark knight','tenet']
+movies.splice(3,4)
+
+console.log(movies);
