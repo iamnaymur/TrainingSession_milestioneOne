@@ -8,16 +8,15 @@ Inline elements - An inline element does not block the space is has around it . 
 
 Attributes- this is like an instruction for the elements we use. Suppose we are using the < a> element and we can use the href attribute to specify the path that will be used to send the user on the other webpage.
 
-Types of css selectors- 
+Types of css selectors-
 1 . Id selector - To select a specific element in the dom, we need to use "#".
 2 . Class selector - We can select elements using the class selector by using "." before the class name that we given.
 3 . Element selector - By using this you can target all the same elements, Suppose by using the < p> we can select all the p elements available file.
 4 . Pseudo selector - Only targets elements based on an action. Example: a:hover
-5 . Universal selector - (*) this targets all the elements on the page.
+5 . Universal selector - (\*) this targets all the elements on the page.
 6 . Pseudo element selector - It targets specific part of an element.
 
 Specificity - By this the browser can understand which style should be showed when there are different styles for the same thing. It looks up to the css selectors and then decide which specific style should it show on the display.
-
 
 CSS box model - We can think of a rectangular box around every HTML element when we create one. This model is used to describe the height and width of the rectangular box. However, there are only 4 elements that describe the box model properly and they are Content, Padding, Border, Margin.
 
@@ -25,8 +24,9 @@ Flex and grid - Flex is one dimensional and it can only help you arrange items i
 
 Media query - While making a webpage, it is always a big concern to make the webpage responsive for all the device sizes. This is where media query comes in and helps us to make the website responsive for the other devices and make a good user experience overall.
 
-
 Javascript Data types
 
 1 . Primitive data types- strings, booleans, numbers, null, undefined
 2 . Composite/ non-primitive data types - objects, functions, arrays,
+
+Ajax - It is a technique that is used to make asynchronous requests to create more interactive and responsive web applications. Mainly when an event occurs browser creates a request and then send it to the server to get the specific data and the server creates a response back along with the expected data of the user and then the data gets processed using javascript and gets updated on the webpage. This it how the ajax actually works. Modern Browsers now can use Fetch API instead of the XMLHttpRequest Object and using fetch is much more efficient.
