@@ -95,3 +95,95 @@ figure {
     flex-direction: column;
   }
 }
+/* blog */
+.blog {
+  padding: 20px;
+  text-align: center;
+}
+
+.blog-post {
+  padding: 20px;
+  background-color: rgb(16, 184, 214);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+/* contact */
+.contact {
+  width: 100vw;
+  padding: 20px;
+  color: white;
+  background-color: rgb(47, 148, 188);
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #285059;
+  color: white;
+}
+
+button:hover {
+  background-color: #c51919;
+}
+/* table */
+.table-container {
+  width: 100vw;
+  margin: 40px 0;
+  padding: 10px;
+  background-color: rgb(194, 167, 167);
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #00e5ff;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #156a79;
+  font-weight: bold;
+}
+/* pagination */
+.pagination {
+  text-align: center;
+  margin: 20px;
+}
+
+.pagination li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.pagination a {
+  padding: 10px 15px;
+  border: 2px solid #0de8c7;
+  color: #333;
+}
+
+.pagination a:hover {
+  background-color: #2d8eca;
+  color: white;
+}
